@@ -8,6 +8,7 @@
     <p>{{ site.description }}</p>
   </div>
 
+  {% if false %}
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
 
@@ -27,6 +28,7 @@
     {% endfor %}
 
   </nav>
+  {% endif %}
 
   <div class="sidebar-item">
     <p>
